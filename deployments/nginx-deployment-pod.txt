@@ -1,0 +1,3 @@
+kubectl create ns nginxdeployment
+kubectl create -f nginx-deployment-pod.yaml -n nginxdeployment
+kubectl get pods -n nginxdeployment
